@@ -5,10 +5,10 @@ namespace AloneBundle\Controller;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 
-class DefaultController extends Controller
+class ContactController extends Controller
 {
     /**
-     * @Route("/", name="alone_start")
+     * @Route("/contact", name="alone_survey_start")
      */
     public function indexAction()
     {

@@ -1,0 +1,182 @@
+.alone_content {
+	padding-left: 7%;
+	padding-right: 7%;
+	background-color: rgba(12, 12, 12, 1);
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.alone_full_image{
+	width: 100%;
+	z-index: 10;
+	overflow-x: hidden;
+	background-attachment: fixed;
+}
+
+#alone_wrapper{
+	position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.alone_tab{
+	width: 100%;
+	height: 10%;
+	position: fixed;
+}
+
+.alone_icons_position {
+	font-size: 150%;
+	color: gray;
+}
+
+.alone_icon {
+	padding-right: 0.5%;
+	float: right;
+	font-size: 120%;
+	color: rgba(210, 210, 210, 1);
+}
+
+
+.alone_content_left {
+	float: left;
+	width: 50%;
+}
+
+.alone_content_right {
+	float: right;
+	width: 50%;
+}
+
+.alone_spacer {
+	padding-bottom: 20%;
+}
+
+h1{
+	font-size: 400%;
+}
+
+.alone_text_right {
+	font-size: 250%;
+	font-family: 'Amatic SC';
+	text-align: right;
+	color: white;
+}
+
+.alone_text_centered {
+	font-size: 170%;
+	text-align: center;
+}
+
+.spacer_text {
+	width: 100%;
+	height: 100%;
+}
+
+.alone_main_image {
+	height: 35%;
+	width: 100%;
+}
+
+ /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+	.alone_text {
+	font-size: 80%;
+	font-family: 'Amatic SC';
+	text-align: left;
+	color: white;
+	}
+
+	.alone_header {
+	font-size: 100%;
+	font-weight: 900;
+	font-family: 'Amatic SC';
+	text-align: left;
+	color: white;
+	}
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+	.alone_text {
+	font-size: 120%;
+	font-family: 'Amatic SC';
+	text-align: left;
+	color: white;
+}
+
+.alone_header {
+	font-size: 200%;
+	font-weight: 900;
+	font-family: 'Amatic SC';
+	text-align: left;
+	color: white;
+}
+	
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+	.alone_text {
+	font-size: 200%;
+	font-family: 'Amatic SC';
+	text-align: left;
+	color: white;
+}
+
+.alone_header {
+	font-size: 300%;
+	font-weight: 900;
+	font-family: 'Amatic SC';
+	text-align: left;
+	color: white;
+}
+	
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+	.alone_text {
+	font-size: 220%;
+	font-family: 'Amatic SC';
+	text-align: left;
+	color: white;
+}
+
+.alone_header {
+	font-size: 380%;
+	font-weight: 900;
+	font-family: 'Amatic SC';
+	text-align: left;
+	color: white;
+}
+	
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+	.alone_text {
+	font-size: 250%;
+	font-family: 'Amatic SC';
+	text-align: left;
+	color: white;
+}
+
+.alone_header {
+	font-size: 400%;
+	font-weight: 900;
+	font-family: 'Amatic SC';
+	text-align: left;
+	color: white;
+}
+
+} 
+	
+}

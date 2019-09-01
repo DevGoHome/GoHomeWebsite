@@ -1,0 +1,17 @@
+.alone_toolbar {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.alone_toolbar_content {
+    width: 13rem;
+    margin: 0.4rem;
+    text-align: center;
+    line-height: 5rem;
+}
+
+.alone_toolbar_font {
+    font-size: 1.4rem;
+    color: aliceblue;
+}

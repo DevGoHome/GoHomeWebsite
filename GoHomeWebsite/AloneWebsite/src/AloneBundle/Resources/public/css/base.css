@@ -1,0 +1,43 @@
+.alone_background_tiles {
+    background-image: url("../images/BackgroundTiles.jpg");
+    background-repeat: repeat-y repeat-x;
+}
+
+body {
+    background-image: url("../images/BackgroundTiles.jpg");
+    background-repeat: repeat-y repeat-x;
+}
+
+.container {
+    display: flex;
+}
+
+.link-color {
+    color: rgb(245, 245, 245);
+}
+
+.link-color:hover {
+    color: rgb(160, 160, 160); 
+    text-decoration: none;
+}
+
+.link-color:active {
+    color: rgb(140, 140, 140); 
+    text-decoration: none;
+}
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
