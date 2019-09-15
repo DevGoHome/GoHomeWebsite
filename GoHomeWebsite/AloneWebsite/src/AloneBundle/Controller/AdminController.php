@@ -5,13 +5,13 @@ namespace AloneBundle\Controller;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 
-class StartController extends Controller
+class AdminController extends Controller
 {
     /**
-     * @Route("/", name="alone_start")
+     * @Route("/admin/login", name="alone_admin_login")
      */
     public function indexAction()
     {
-        return $this->render('@Alone/start/alone_start.html.twig');
+        return $this->render('@Alone/alone_start.html.twig');
     }
 }

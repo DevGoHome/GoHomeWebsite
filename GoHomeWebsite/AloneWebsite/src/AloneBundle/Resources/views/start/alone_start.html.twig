@@ -1,0 +1,65 @@
+{% extends 'default/base_layout.html.twig' %}
+
+{% block body %}
+    
+<div id="start_image" class="alone_start_image">
+
+{% image '@AloneBundle/Resources/public/images/HorrorGameSurvey.jpg' %}
+                    <img width="100%" src="{{ asset_url }}" alt="HorrorGameSurvey!" />
+{% endimage %}
+
+</div>
+
+<div class="describing_element_container">
+
+    <div class="describing_element">
+        <div>
+            {% image '@AloneBundle/Resources/public/images/OpenWorldImage.jpg' %}
+                <img class="describing_element_image" src="{{ asset_url }}" alt="OpenWorld"/>
+            {% endimage %}
+        </div>
+        <h2>Open world</h2>
+        <div class="describing_element_description">
+            GoHome has three different areas on the map.
+            In each area exists a different being.
+            You as a player are free to decide where you want to go in this world of darkness.
+        </div>
+
+    </div>
+
+
+    <div class="describing_element">
+        <div>
+            {% image '@AloneBundle/Resources/public/images/OpenWorldImage.jpg' %}
+                <img class="describing_element_image" src="{{ asset_url }}" alt="TrueFirstPerson"/>
+            {% endimage %}
+        </div>
+        <h2>True first person</h2>
+        <div class="describing_element_description">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut l
+        </div>
+
+    </div>
+
+    <div class="describing_element">
+        <div>
+            {% image '@AloneBundle/Resources/public/images/OpenWorldImage.jpg' %}
+                <img class="describing_element_image" src="{{ asset_url }}" alt="RunAndFight"/>
+            {% endimage %}
+        </div>
+        <h2>Run and Fight</h2>
+        <div class="describing_element_description">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut l
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<div class="row_container">
+    <h1 class="container_element"><a style="font-size: 100%" class="btn btn-block btn-outline-dark" href="{{ path('alone_GoHome_start') }}">Tell me more about GoHome!</a></h1>
+</div>
+
+{% endblock %}

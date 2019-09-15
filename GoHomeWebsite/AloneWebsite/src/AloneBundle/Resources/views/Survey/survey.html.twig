@@ -1,0 +1,19 @@
+{% extends 'default/base_layout.html.twig' %}
+
+{% block body %}
+
+<div class="gohome_container">
+    <h1>Survey!</h1>
+    <div class="gohome_content">
+        Step {{ step }}/5
+    </div>
+
+    {{ form_start(form) }}
+
+    {{ form_widget(form) }}
+
+    {{ form_end(form) }}
+</div>
+
+
+{% endblock %}

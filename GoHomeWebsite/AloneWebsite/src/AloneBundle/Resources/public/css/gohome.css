@@ -1,0 +1,45 @@
+.gohome_container_left {
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.gohome_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.gohome_content {
+    width: 50rem;
+    margin: 2rem;
+    text-align: left;
+    line-height: 1.2rem;
+    font-family: 'Tillana';
+    font-size: 1.2rem;
+    color: #9e9e9e;
+}
+
+.gohome_content_image {
+    width: 600px;
+    max-width: 110%;
+    max-height: 600px;
+    display: flex;
+    padding: 1rem;
+}
+
+.gohome_content_image:hover {
+    width: 600px;
+    max-width: 110%;
+    max-height: 600px;
+    display: flex;
+    padding: 1rem;
+}
+
+.gohome_container_right {
+    display: flex;
+    justify-content: right;
+    align-items: flex-start;
+}
+

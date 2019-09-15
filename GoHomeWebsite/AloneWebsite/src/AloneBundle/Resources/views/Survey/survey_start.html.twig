@@ -1,0 +1,16 @@
+{% extends 'default/base_layout.html.twig' %}
+
+{% block body %}
+
+<div class="gohome_container">
+    <h1>Horror Game Survey</h1>
+    <div class="gohome_content">
+        Did you ever think about what a horror game needs to have to be great?<br>
+        Well life don't always give you wishes. But today it is! <br>
+        Just answer these 5 questions
+    </div>
+</div>
+
+<a class="btn btn-block btn-outline-dark" href="{{ path('alone_survey_create') }}">Start survey!</a>
+
+{% endblock %}
